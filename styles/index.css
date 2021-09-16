@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+}
+
+/* Video section styles starts */
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 433px;
+  top: 0;
+  left: 0;
+}
+.video-section {
+  position: relative;
+  height: 433px;
+  color: #ffffff;
+}
+.viewport-header {
+  position: absolute;
+  top: 110px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.video-overlay{
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: #772D8B33;
+}
+.video-section h2 {
+  text-align: center;
+  letter-spacing: 1px;
+}
+.play-button {
+  margin: 25px;
+}
+/* Video section styles ends */
+
+/* client section */
+.client-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 90px 50px 160px;
+  background-color: #fafafa;
+  justify-content: space-between;
+}
+.client-section h2 {
+  color: #474747;
+  font-weight: lighter;
+  font-size: 40px;
+}
+.client-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 100px;
+}
+.client-logo img {
+  width: 130px;
+  padding-bottom: 20px;
+}
+/* client section ends */
+
+/* footer style starts */
+footer .copyright {
+  font-size: 14px;
+  color: #474747;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-main {
+  background: #333333;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 90px 70px 50px;
+  color: #ffffff;
+}
+.footer-main h2 {
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+.footer-main ul {
+  list-style: none;
+}
+.footer-desc {
+  font-size: 14px;
+  line-height: 160%;
+  font-weight: lighter;
+}
+.footer-content-1 {
+  width: 273px;
+}
+
+.footer-content-2 {
+  width: 201px;
+}
+.footer-content-2 li {
+  padding-bottom: 14px;
+}
+
+.footer-content-3 {
+  width: 295px;
+}
+
+.footer-content-4 {
+  width: 251px;
+}
+.footer-content-4 li {
+  padding-bottom: 20px;
+  border-bottom: 0.5px solid #ffffff;
+  margin-bottom: 20px;
+}
+.footer-content-4 p {
+  font-weight: normal;
+}
+.adress-row {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  align-items: center;
+  padding-bottom: 24px;
+}
+.footer-content {
+  margin-bottom: 40px;
+}
+/* footer style starts */
