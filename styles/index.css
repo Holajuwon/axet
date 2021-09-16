@@ -7,10 +7,13 @@ body    {
     box-sizing: border-box;
 }
 .work_flow  {
-    /* background-image: url("https://cdn.glitch.com/a8f831d3-9699-4887-93cc-c3f1e944b75b%2Ffbcd7e85-0751-4f03-bf46-0ca0d8bf3ed4.image.png?v=1631799904056"); */
-    background-image: url("assets/");
+    background-image: url("assets/workflow.png")!important;
     background-color: red;
     text-align: center;
+}
+.workflow_icons img{
+width: 100px;
+height: 100px;
 }
 .workFlow_container {
     display: flex;
@@ -64,6 +67,7 @@ body    {
 }
 .workp  {
     margin-bottom:0;
+    color: #FFFFFF;
 }
 .testimonial {
     text-align:center;
