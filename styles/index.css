@@ -1,3 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+body    {
+    font-family: 'Open Sans';
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.work_flow  {
+    background-image: url("assets/workflow.png")!important;
+    background-color: red;
+    text-align: center;
+}
+.workflow_icons img{
+width: 100px;
+height: 100px;
+}
+.workFlow_container {
+    display: flex;
+    justify-content: space-evenly;
+}
+/* .icon_workflow{
+    positoion
+} */
+.work_flow  {
+    padding: 20px 0 100px 0;
+}
+.work_flow h3   {
+    font-size:40px;
+    font-weight: normal;
+    color:#FFFFFF;
+    margin: 0;
+}
+ .icon1_workflow   {
+    position: absolute;
+    top: 170px;
+    left: 307px;
+    }
+.icon2_workflow {
+    position: absolute;
+    left: 45.5rem;
+    top: 11rem;
+    }
+.icon3_workflow {
+    position: absolute;
+    left: 71.6rem;
+    top: 11rem;
+}
+.icon4_workflow {
+    position: absolute;
+    left: 98rem;
+    top: 11rem;
+}
+.boldp  {
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.flow-text  {
+    width: 204px ;
+    height: 62px;
+    color:#FFFFFF;
+    line-height: 21.66px;
+    font-size:14px
+}
+.workFlow_container {
+    margin-top: 30px;
+}
+.workp  {
+    margin-bottom:0;
+    color: #FFFFFF;
+}
+.testimonial {
+    text-align:center;
+    padding-top: 50px;
+}
+.testimonial h3{
+    font-size: 40px;
+    font-weight: 300;
+    color:#474747;
+    margin: 0;
+}
+.testy  {
+    color:#995AAA;
+    font-size: 14px;
+    margin: 0 0 10px 0!important;
+    font-weight: 600;
+}
+.clients    {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 65px;
+}    
+.client {
+    width: 324px;
+    height:377px;
+    border:solid;
+    box-shadow: 13px, 24px ;
+    padding: 30px;
+    border-width: 1px;
+    border-color:#F9F9F9;
+    box-shadow: 0 13px 24px rgba(0 0 0 / 0.07);
+    /* box-shadow:  13px, 24px rgba(0, 0, 0, 0.07) */
+    ;
+}
+.client_img img {
+    border-radius: 100%;
+}
+.client p   {
+    line-height: 23.66px;
+    font-weight: 300;
+}
+.news   {
+    text-align: center;
+    padding: 164px 0 50px 0;
+}
+.news h3    {
+    font-size: 40px;
+    font-weight: 300;
+    color:#474747;
+    margin: 0;
+}
+.news p {
+    color:#000000;
+    font-size: 14px;
+    margin: 10px 0 10px 0!important;
+    font-weight: 300;
+   
+}
+.news_text  {
+    margin-top: 20px;
+}
+.the_news   {
+    display: flex;
+    justify-content: center;
+}
+.the_news div {
+    margin-right: 22px;
+}
+.the_news h5    {
+    font-size: 18px;
+    font-weight: 600 ;
+    margin: 0 0 10px 0;
+    color:#565656;
+}
+.the_news p {
+    width: 362px;
+    margin-top: 30px!important;
+    line-height:21.66px;
+    font-size:14px
+}
+.news button {
+    background-color: #EE2B7A;
+    width: 137px;
+    height:34px ;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    margin-top:30px;
+}
 * {
   margin: 0;
   padding: 0;
