@@ -8,7 +8,7 @@ body    {
 }
 .work_flow  {
     background-image: url("assets/workflow.png")!important;
-    background-color: red;
+
     text-align: center;
 }
 .workflow_icons img{
