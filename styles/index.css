@@ -19,7 +19,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  padding: 25px 0 50px 0;
+  padding: 20px 0 50px 0;
 }
 .workflow_icons img {
   width: 100px;
@@ -28,15 +28,20 @@ body {
 .workFlow_container {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 30px;
 }
 /* .icon_workflow{
     positoion
 } */
 .work_flow h3 {
   font-size: 40px;
-  font-weight: normal;
+  font-weight: 300;
   color: #ffffff;
   margin: 0;
+  margin-top: 10px;
+}
+.paragraph {
+  margin-top: 20px;
 }
 .icon1_workflow {
   position: absolute;
@@ -68,13 +73,12 @@ body {
   color: #ffffff;
   line-height: 21.66px;
   font-size: 14px;
-}
-.workFlow_container {
-  margin-top: 30px;
+  font-weight: 300;
+  margin-top: 13px;
 }
 .workp {
   margin-bottom: 0;
-  color: #ffffff;
+  color: #d2cece;
 }
 .testimonial {
   text-align: center;
@@ -282,35 +286,33 @@ main {
 }
 .login_form {
   width: 360px;
-    height: 375px;
-    margin: auto;
-    margin-right: 20px;
-    padding: 30px;
-    text-align: center;
-    background: #373737c9;
-    border-radius: 5px;
+  height: 375px;
+  margin: auto;
+  margin-right: 20px;
+  padding: 30px;
+  text-align: center;
+  background: #373737c9;
+  border-radius: 5px;
 }
 
 .login_text {
   color: white;
-    font-weight: 600;
-    font-size: 18px;
-    margin-right: 216px;
+  font-weight: 600;
+  font-size: 18px;
+  margin-right: 216px;
 }
 
-.login{
-  
-line-height: 4;
+.login {
+  line-height: 4;
   margin-top: 20px;
-
 }
 
 .forget {
       color: #b6c4da;
     font-size: 12px;
     position: absolute;
-    top: 395px;
-    right: 165px;
+    top: 363px;
+    right: 129px;
 }
 
 
@@ -331,6 +333,7 @@ input[type="password"] {
   margin-top: 45px;
   border-radius: 5px;
   color: white;
+  margin-top: 51px;
   background-color: #ee2b7a;
   outline: none;
   border: none;
@@ -338,12 +341,13 @@ input[type="password"] {
 
 .btn_txt {
   color: #ee2b7a;
-  padding-left: 3px;
+
+  text-decoration: none;
 }
 
-.btn_txt_white{
+.btn_txt_p{
   color: white;
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 5px;
 }
 .about {
@@ -361,8 +365,7 @@ input[type="password"] {
 }
 
 .abt_text {
-    width: 28%;
-    margin-right: 200px;
+    width: 25%;
 }
 
 .about_axet {
@@ -657,6 +660,15 @@ footer .copyright {
     .abt_img_div    {
         margin: 0 auto;
     }
+    .service_text   {
+        flex-direction: column;
+    }
+    .services   {
+        margin-left: 0;
+    }
+    .card   {
+        margin: auto;
+    }
 }
 @media screen and (min-width: 1900px)   {
     #riverpay {
@@ -677,7 +689,6 @@ footer .copyright {
     }
     .client:not(:last-child)
         {
-        margin-right: 65px;
         margin-bottom: 30px;
     }
     ._client    {
