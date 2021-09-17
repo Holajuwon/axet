@@ -350,10 +350,13 @@ input[type="password"] {
 }
 
 .abt_text {
-  width: 50%;
-  height: auto;
-  margin: auto;
+  width: 541px;
+  font-size: 14px;
+    border: 2px solid;
+    height: auto;
 }
+
+
 
 .abt_ax {
   font-weight: 600;
