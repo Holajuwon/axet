@@ -310,9 +310,14 @@ main {
 }
 
 .forget {
-  color: #b6c4da;
-  font-size: 10px;
+      color: #b6c4da;
+    font-size: 12px;
+    position: absolute;
+    top: 363px;
+    right: 129px;
 }
+
+
 input[type="text"],
 input[type="password"] {
   width: 267px;
@@ -326,13 +331,20 @@ input[type="password"] {
   height: 45px;
   padding: 15px;
   color: white;
+  margin-top: 51px;
   background-color: #ee2b7a;
 }
 
 .btn_txt {
   color: #ee2b7a;
+  text-decoration: none;
 }
 
+.btn_txt_p{
+  color: white;
+  font-size: 14px;
+  margin-top: 5px;
+}
 .about {
   width: 100%;
   justify-content: space-between;
