@@ -3,8 +3,16 @@ body    {
     font-family: 'Open Sans';
     margin: 0;
 }
-* {
-    box-sizing: border-box;
+
+*,
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
 }
 .work_flow  {
     background-image: url("../assets/workflow.png")!important;
@@ -164,12 +172,256 @@ height: 100px;
     color: #FFFFFF;
     margin-top:30px;
 }
-* {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  box-sizing: border-box;
+
+
+
+main {
+  width: 100%;
+  height: 100vh;
+  background: url("../assets/img/background\ \(1\).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header {
+  width: 100%;
+  height: 46px;
+  padding: 0 15px 0 15px;
+  display: flex;
+  align-items: center;
+  background-color: #772d8b;
+  justify-content: space-between;
+}
+.logo img {
+  padding: 5px;
+}
+.hd_span_org {
+  color: #ffc42d;
+}
+
+.hd_span_wht {
+  color: white;
+}
+
+.header_text a {
+  padding: 10px;
+}
+.hd_d {
+  text-align: center;
+}
+
+.nav_bar {
+  width: 100%;
+  height: 79px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #00000042;
+}
+
+.logo_container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.logo_container a:first-child {
+  padding: 9px;
+  text-decoration: none;
+  color: white;
+}
+
+.p_org {
+  text-decoration: none;
+  color: #ffc42d;
+  padding: 9px;
+}
+
+.nav_ul ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_ul ul li a {
+  align-items: center;
+  padding: 10px;
+  list-style: none;
+  color: white;
+}
+.nav_ul li {
+  align-items: center;
+  padding: 10px;
+  list-style: none;
+  color: white;
+  text-decoration: none;
+}
+.nav_ul a {
+  text-decoration: none;
+}
+.btn_nav {
+  background: #ee2b7a;
+  color: white;
+  width: 137px;
+  height: 34px;
+  border: none;
+  border-radius: 5px;
+}
+
+.hero_conten {
+  width: 90%;
+  height: 400px;
+  padding: 25px;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero_text {
+  font-weight: 300;
+  font-size: 66px;
+  line-height: 154.7%;
+  color: azure;
+  text-align: center;
+}
+.hero_text_sb {
+  text-align: center;
+  font-weight: 300;
+  font-size: 33px;
+  line-height: 154.7%;
+  color: azure;
+}
+.login_form {
+  display: block;
+  width: 340px;
+  height: 365px;
+  text-align: center;
+  background: #373737c9;
+}
+.login {
+  display: block;
+  margin: auto;
+  line-height: 4;
+}
+.login_text {
+  float: left;
+  color: white;
+  margin-left: 35px;
+}
+
+.forget {
+  color: #b6c4da;
+  font-size: 10px;
+}
+input[type="text"],
+input[type="password"] {
+  width: 267px;
+  height: 45px;
+  margin-top: 15p;
+  margin: auto;
+}
+
+.btn {
+  width: 267px;
+  height: 45px;
+  padding: 15px;
+  color: white;
+  background-color: #ee2b7a;
+}
+
+.btn_txt {
+  color: #ee2b7a;
+}
+
+.about {
+  width: 100%;
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 40px;
+}
+
+.abt_main {
+  display: flex;
+  width: 90%;
+  height: auto;
+  margin: auto;
+  padding: 5px;
+  justify-content: space-between;
+}
+
+.abt_text {
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+
+.abt_ax {
+  font-weight: 600;
+  font-size: 14px;
+}
+.abt_hd {
+  font-weight: 300;
+  font-size: 40px;
+}
+main span h2 p {
+  color: black;
+}
+
+.abt_img_div {
+  width: 50%;
+  height: auto;
+}
+.abt_img {
+  width: 490px;
+  height: 447px;
+}
+
+.services {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 30px;
+}
+
+.service_text {
+  display: flex;
+  margin-top: 5px;
+  margin: auto;
+}
+.card {
+  width: 25%;
+  height: auto;
+  padding: 10px;
+  margin: auto;
+  line-height: 1;
+  margin-top: 10px;
+  text-align: center;
+}
+.svs_span {
+  color: #995aaa;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.svs_p {
+  font-weight: 300;
+  font-size: 40px;
+}
+
+.img_icon {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  align-items: center;
+  background-color: #772d8b;
+}
+
+.svs_icon {
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  margin-top: 15px;
+  align-items: center;
 }
 
 /* Video section styles starts */
@@ -195,12 +447,12 @@ video {
   align-items: center;
   justify-content: center;
 }
-.video-overlay{
+.video-overlay {
   position: absolute;
   top: 0;
   height: 100%;
   width: 100%;
-  background: #772D8B33;
+  background: #772d8b33;
 }
 .video-section h2 {
   text-align: center;
