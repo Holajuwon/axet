@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
-body    {
-    font-family: 'Open Sans';
-    margin: 0;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+body {
+  font-family: "Open Sans";
+  margin: 0;
 }
 
 *,
@@ -14,166 +14,159 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   box-sizing: border-box;
 }
-.work_flow  {
-    background-image: url("../assets/workflow.png")!important;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-        padding: 20px 0 50px 0;
+.work_flow {
+  background-image: url("../assets/workflow.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
 }
-.workflow_icons img{
-width: 100px;
-height: 100px;
+.work-overlay {
+  background: #390746bd;
+  width: 100%;
+  height: 100%;
+  padding: 20px 0 100px 0;
+}
+.workflow_icons img {
+  width: 100px;
+  height: 100px;
 }
 .workFlow_container {
-    display: flex;
-    justify-content: space-evenly;
-        margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
 }
 /* .icon_workflow{
     positoion
 } */
-.work_flow h3   {
-    font-size:40px;
-    font-weight: 300;
-    color:#FFFFFF;
-    margin: 0;
-    margin-top: 10px;
+.work_flow h3 {
+  font-size: 40px;
+  font-weight: normal;
+  color: #ffffff;
+  margin: 0;
 }
-.paragraph  {
-    margin-top:20px;
+.icon1_workflow {
+  position: absolute;
+  top: 170px;
+  left: 307px;
 }
- .icon1_workflow   {
-    position: absolute;
-    top: 170px;
-    left: 307px;
-    }
 .icon2_workflow {
-    position: absolute;
-    left: 45.5rem;
-    top: 11rem;
-    }
+  position: absolute;
+  left: 45.5rem;
+  top: 11rem;
+}
 .icon3_workflow {
-    position: absolute;
-    left: 71.6rem;
-    top: 11rem;
+  position: absolute;
+  left: 71.6rem;
+  top: 11rem;
 }
 .icon4_workflow {
-    position: absolute;
-    left: 98rem;
-    top: 11rem;
+  position: absolute;
+  left: 98rem;
+  top: 11rem;
 }
-.boldp  {
-    color: #FFFFFF;
-    font-weight: 600;
+.boldp {
+  color: #ffffff;
+  font-weight: 600;
 }
-.flow-text  {
-    width: 204px ;
-    height: 62px;
-    color:#FFFFFF;
-    line-height: 21.66px;
-    font-size:14px;
-    font-weight: 300;
-    margin-top: 13px;
+.flow-text {
+  width: 204px;
+  height: 62px;
+  color: #ffffff;
+  line-height: 21.66px;
+  font-size: 14px;
 }
-.workp  {
-    margin-bottom:0;
-    color: #D2CECE;
+.workFlow_container {
+  margin-top: 30px;
+}
+.workp {
+  margin-bottom: 0;
+  color: #ffffff;
 }
 .testimonial {
-    text-align:center;
-    padding-top: 50px;
+  text-align: center;
+  padding-top: 50px;
 }
-.testimonial h3{
-    font-size: 40px;
-    font-weight: 300;
-    color:#474747;
-    margin: 0;
+.testimonial h3 {
+  font-size: 40px;
+  font-weight: 300;
+  color: #474747;
+  margin: 0;
 }
-.testy  {
-    color:#995AAA;
-    font-size: 14px;
-    margin: 0 0 10px 0!important;
-    font-weight: 600;
+.testy {
+  color: #995aaa;
+  font-size: 14px;
+  margin: 0 0 10px 0 !important;
+  font-weight: 600;
 }
-.clients    {
-    display: flex;
-    justify-content: center;
-    margin-top: 65px;
-}    
+.clients {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 65px;
+}
 .client {
-    width: 324px;
-    height:377px;
-    border:solid;
-    padding: 30px 42px 30px 42px;
-    border-width: 1px;
-    border-color:#F9F9F9;
-    box-shadow: 0 13px 24px rgba(0 0 0 / 0.07);
-    font-family: Open Sans;
-}
-.client:not(:last-child)    {
-    margin-right: 100px;
+  width: 324px;
+  height: 377px;
+  border: solid;
+  box-shadow: 13px, 24px;
+  padding: 30px;
+  border-width: 1px;
+  border-color: #f9f9f9;
+  box-shadow: 0 13px 24px rgba(0 0 0 / 0.07);
+  /* box-shadow:  13px, 24px rgba(0, 0, 0, 0.07) */
 }
 .client_img img {
-    border-radius: 100%;
+  border-radius: 100%;
 }
-.client p   {
-    line-height: 23.66px;
-    font-weight: 300;
-    font-size: 14px;
-    margin-top: 50px;
+.client p {
+  line-height: 23.66px;
+  font-weight: 300;
 }
-.news   {
-    text-align: center;
-    padding: 164px 0 50px 0;
+.news {
+  text-align: center;
+  padding: 164px 0 50px 0;
 }
-.news h3    {
-    font-size: 40px;
-    font-weight: 300;
-    color:#474747;
-    margin: 0;
+.news h3 {
+  font-size: 40px;
+  font-weight: 300;
+  color: #474747;
+  margin: 0;
 }
 .news p {
-    color:#000000;
-    font-size: 14px;
-    margin: 10px 0 10px 0!important;
-    font-weight: 300;
-   
+  color: #000000;
+  font-size: 14px;
+  margin: 10px 0 10px 0 !important;
+  font-weight: 300;
 }
-.news_text  {
-    margin-top: 20px;
+.news_text {
+  margin-top: 20px;
 }
-.the_news   {
-    display: flex;
-    justify-content: center;
+.the_news {
+  display: flex;
+  justify-content: center;
 }
 .the_news div {
-    margin-right: 22px;
+  margin-right: 22px;
 }
-.the_news h5    {
-    font-size: 18px;
-    font-weight: 600 ;
-    margin: 20px 0 10px 0;
-    color:#565656;
+.the_news h5 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 10px 0;
+  color: #565656;
 }
 .the_news p {
-    width: 362px;
-    margin-top: 20px!important;
-    line-height:21.66px;
-    font-size:14px;
-    padding: 0 1rem 0 1rem;
+  width: 362px;
+  margin-top: 30px !important;
+  line-height: 21.66px;
+  font-size: 14px;
 }
 .news button {
-    background-color: #EE2B7A;
-    width: 137px;
-    height:34px ;
-    border-radius: 5px;
-    border: none;
-    color: #FFFFFF;
-    margin-top:30px;
+  background-color: #ee2b7a;
+  width: 137px;
+  height: 34px;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  margin-top: 30px;
 }
-
-
 
 main {
   width: 100%;
@@ -266,7 +259,7 @@ main {
   border-radius: 5px;
 }
 
-.hero_conten {
+.hero_content {
   width: 90%;
   height: 400px;
   padding: 25px;
@@ -276,63 +269,88 @@ main {
   align-items: center;
   justify-content: space-between;
 }
-
+.hero_content_text {
+  width: 714px;
+  height: 243px;
+}
 .hero_text {
   font-weight: 300;
   font-size: 66px;
   line-height: 154.7%;
-  color: azure;
-  text-align: center;
+  color: white;
 }
 .hero_text_sb {
-  text-align: center;
-  font-weight: 300;
-  font-size: 33px;
+  font-weight: lighter;
+  font-size: 40px;
   line-height: 154.7%;
-  color: azure;
+  color: white;
 }
 .login_form {
-  display: block;
-  width: 340px;
-  height: 365px;
-  text-align: center;
-  background: #373737c9;
+  width: 360px;
+    height: 375px;
+    margin: auto;
+    margin-right: 20px;
+    padding: 30px;
+    text-align: center;
+    background: #373737c9;
+    border-radius: 5px;
 }
-.login {
-  display: block;
-  margin: auto;
-  line-height: 4;
-}
+
 .login_text {
-  float: left;
   color: white;
-  margin-left: 35px;
+    font-weight: 600;
+    font-size: 18px;
+    margin-right: 216px;
+}
+
+.login{
+  
+line-height: 4;
+  margin-top: 20px;
+
 }
 
 .forget {
-  color: #b6c4da;
-  font-size: 10px;
+      color: #b6c4da;
+    font-size: 12px;
+    position: absolute;
+    top: 395px;
+    right: 165px;
 }
+
+
 input[type="text"],
 input[type="password"] {
   width: 267px;
   height: 45px;
-  margin-top: 15p;
+  padding: 0 15px;
+  border-radius: 5px;
+  margin-top: 33px;
   margin: auto;
 }
 
 .btn {
   width: 267px;
   height: 45px;
-  padding: 15px;
+  padding: 15 0px;
+  margin-top: 45px;
+  border-radius: 5px;
   color: white;
   background-color: #ee2b7a;
+  outline: none;
+  border: none;
 }
 
 .btn_txt {
   color: #ee2b7a;
+  padding-left: 3px;
 }
 
+.btn_txt_white{
+  color: white;
+  font-size: 12px;
+  margin-top: 5px;
+}
 .about {
   width: 100%;
   justify-content: space-between;
