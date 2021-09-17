@@ -14,3 +14,15 @@ function toggleVideo() {
       "https://cdn.glitch.com/a8f831d3-9699-4887-93cc-c3f1e944b75b%2Fbe194a0b-4c2e-4492-b4d8-24b6ca9c9862.image.png?v=1631793982048";
   }
 }
+
+function toggleMenu() {
+  let nav = document.querySelector(".resp_nav");
+  let menu = document.querySelector("#menu_icon");
+  if (nav.style.display === "block") {
+    nav.style.display = "none";
+    menu.className = "ri-menu-line ri-2x";
+  } else {
+    nav.style.display = "block";
+    menu.className = "ri-close-fill ri-3x";
+  }
+}
