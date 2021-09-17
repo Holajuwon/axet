@@ -352,32 +352,28 @@ input[type="password"] {
 }
 .about {
   width: 100%;
-  justify-content: space-between;
-  align-content: center;
-  margin-top: 40px;
-}
-
-.abt_main {
   display: flex;
-  width: 90%;
-  height: auto;
-  margin: auto;
-  padding: 0 15px;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 90px;
+  align-items: center;
+  margin-top: 50px ;
+  padding: 0 70px;
+  flex-wrap: wrap;
 }
 
 .abt_text {
-  width: 541px;
+  width: 476px;
     font-size: 14px;
-    padding: 82px 10px 0 0;
+    /* padding: 82px 10px 0 0; */
     height: auto;
 }
 
 
 .abt_text_p{
-  font-size: 12px;
-  margin-top: 33px;
-  width: 79%;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 30px;
+  font-weight: 280;
 }
 
 .abt_ax {
@@ -394,13 +390,8 @@ main span h2 p {
   color: black;
 }
 
-.abt_img_div {
-  width: 50%;
-  height: auto;
-}
 .abt_img {
-  width: 590px;
-height: 469px;
+  max-width: 100%;
 }
 
 .services {
@@ -415,6 +406,7 @@ height: 469px;
   margin-top: 5px;
   margin: auto;
   flex-wrap: wrap;
+  gap: 30px;
 }
 .card {
   width: 271px;
@@ -512,7 +504,7 @@ video {
   align-items: center;
   padding: 90px 50px 160px;
   background-color: #fafafa;
-  justify-content: space-between;
+  justify-content: center;
 }
 .client-section h2 {
   color: #474747;
@@ -521,7 +513,8 @@ video {
 }
 .client-logo {
   display: flex;
-  justify-content: space-between;
+  column-gap: 30px;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
@@ -604,153 +597,103 @@ footer .copyright {
 
 /* footer style starts */
 /* Mobile responsiveness */
-@media screen and (max-width: 767px)    {
-    .workFlow_container {
-        flex-direction: column;
-        margin-top: 50px;
-    }  
-    .work_flow {
-        height: 150vh;
-    }
-    .flow-text  {
-        width: 100%;
-        padding: 0 6rem 0 6rem;
-    }
-    .term, .equipment, .pay   {
-        margin-top: 30px;
-    }
-    .clients    {
-        flex-direction: column;
-        align-items: center;
-        margin-top: 40px;
-    }
-    .client {
-        margin-right: 0px!important;
-        margin-top: 20px;
-    }
-    .the_news   {
-        flex-direction: column;
-    }
-    .the_news div   {
-        margin-right: 0;
-        margin-bottom: 40px;
-    }
-    .news   {
-        padding-top: 90px;
-    }
-    .news_text {
-        margin-top: 40px;
-    }
-    .abt_main   {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .abt_ax {
-        text-align: center
-    }
-    .abt_text   {
-        width: 90%;
-        margin: 0 auto;
-    }
-    .abt_img    {
-    width: 90%;
-    height: 48vh;
-    margin: 10px;
-    }
-    .abt_img_div    {
-        margin: 0 auto;
-    }
-    .service_text   {
-        flex-direction: column;
-    }
-    .services   {
-        margin-left: 0;
-    }
-    .card   {
-        margin: auto;
-    }
+@media screen and (max-width: 767px) {
+  .workFlow_container {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .work_flow {
+    height: 150vh;
+  }
+  .flow-text {
+    width: 100%;
+    padding: 0 6rem 0 6rem;
+  }
+  .term,
+  .equipment,
+  .pay {
+    margin-top: 30px;
+  }
+  .clients {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
+  .client {
+    margin-right: 0px !important;
+    margin-top: 20px;
+  }
+  .the_news {
+    flex-direction: column;
+  }
+  .the_news div {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+  .news {
+    padding-top: 90px;
+  }
+  .news_text {
+    margin-top: 40px;
+  }
 }
-@media screen and (min-width: 1900px)   {
-    #riverpay {
-        margin-top: 0px!important;
-    }   
+@media screen and (min-width: 1900px) {
+  #riverpay {
+    margin-top: 0px !important;
+  }
 }
-@media screen and (min-width: 768px)    {
-    .workFlow_container {
-        width: 75%;
-        flex-wrap: wrap;
-        margin:  0px auto;
-    }
-    #riverpay {
-        margin-top: 50px;
-    }
-    .clients    {
-        flex-wrap: wrap;
-    }
-    .client:not(:last-child)
-        {
-        margin-bottom: 30px;
-    }
-    ._client    {
-        margin-right: 0!important;
-    }
-    .the_news   {
-        flex-wrap: wrap;
-    }
-    .the_news div   {
-        margin-bottom: 30px;
-    }
-    .news_text {
-        margin-top: 40px;
-    }
-    .news {
-        text-align: center;
-        padding: 100px 0 50px 0;
-    }
-    .services{
-        margin-left: 0;
-    }
-    .card   {
-        margin-left: 0;
-    }
-    .service_text   {
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-    }
-    .abt_main   {
-        flex-direction: column;
-    }
-    .abt_img    {
-        width: 100%;
-        height: 50vh;
-        margin-top: 30px;
-    }
-    .abt_text {
-        width: 88%;
-        margin: auto;
-    }
-    abt_img_div {
-        margin-top: 30px;
-    }
-    .workFlow_container div  {
-        margin-top: 30px;
-    }
-    
+@media screen and (min-width: 768px) {
+  .workFlow_container {
+    width: 75%;
+    flex-wrap: wrap;
+    margin: 40px auto;
+  }
+  #riverpay {
+    margin-top: 50px;
+  }
+  .clients {
+    flex-wrap: wrap;
+  }
+  .client:not(:last-child) {
+    margin-right: 65px;
+    margin-bottom: 30px;
+  }
+  ._client {
+    margin-right: 0 !important;
+  }
+  .the_news {
+    flex-wrap: wrap;
+  }
+  .the_news div {
+    margin-bottom: 30px;
+  }
+  .news_text {
+    margin-top: 40px;
+  }
+  .news {
+    text-align: center;
+    padding: 100px 0 50px 0;
+  }
 }
-@media screen and (min-width: 1024px) and (max-width: 1220px)  {
-    .equipment  {
-        margin-top: 0;
-    }
-    .work_flow  {
-        height: 55vh;
-    }
-    .big_team   {
-        margin-top: 20px;
-    }
-    .news_text {
-        margin-top: 50px;
-    }
-    .news p {
-        margin-top: 15px;
-    }
+@media screen and (min-width: 1024px) and (max-width: 1220px) {
+  .equipment {
+    margin-top: 0;
+  }
+  .work_flow {
+    height: 55vh;
+  }
+  .big_team {
+    margin-top: 20px;
+  }
+  .news_text {
+    margin-top: 50px;
+  }
+  .news p {
+    margin-top: 15px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .about{
+    padding: 0 35px;
+  }
 }
