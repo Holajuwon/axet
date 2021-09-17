@@ -707,6 +707,31 @@ footer .copyright {
         text-align: center;
         padding: 100px 0 50px 0;
     }
+    .services{
+        margin-left: 0;
+    }
+    .card   {
+        margin-left: 0;
+    }
+    .service_text   {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .abt_main   {
+        flex-direction: column;
+    }
+    .abt_img    {
+        width: 100%;
+        height: 50vh;
+    }
+    .abt_text {
+        width: 88%;
+        margin: auto;
+    }
+    abt_img_div {
+        margin-top: 30px;
+    }
+    
 }
 @media screen and (min-width: 1024px) and (max-width: 1220px)  {
     .equipment  {
