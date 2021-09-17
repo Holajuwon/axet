@@ -585,6 +585,82 @@ footer .copyright {
 /* footer style starts */
 /* Mobile responsiveness */
 @media screen and (max-width: 767px)    {
+  .herder-text{
+    display:flex;
+  }
+
+  .hd_span_org,.hd_span_wht{
+    display: none;
+  }
+  .logo{
+    display: flex;
+  }
+  .nav_ul{
+    display: none;
+  }
+.forget{
+  position: absolute;
+    top: 542px;
+    right: 88px;
+
+}
+  .hero_conten{
+    display: block;
+  }
+
+  .hero_text{
+    font-size:45px
+  }
+  .txt_mobile{
+    margin-bottom: 10px;
+  }
+  .hero_text_sb{
+    font-size: 28px;
+  }
+
+
+.login_form{
+  height: 280px;
+}
+
+.btn{
+  margin-top: 18px;
+}
+
+.abt_main{
+  display: block;
+  padding: 10px 0;
+}
+
+.abt_img_div{
+  margin-top: 15px;
+  margin: 0 8px 0 0;
+}
+
+.abt_img{
+  position: 0 10px 0 0;
+  margin-top: 10px;
+}
+
+.service_text{
+  display: block;
+}
+.card{
+  width: 90%;
+  height: 280px;
+  box-shadow: 2px 4px 26px rgba(0, 0, 0, 0.07);
+}
+
+.cd_span{
+  font-weight: 400;
+}
+
+.svs_p{
+  font-weight: lighter;
+  font-size:15px ;
+  margin-top: 10px;
+  padding: 0 15px;
+}
     .workFlow_container {
         flex-direction: column;
         margin-top: 50px;
@@ -626,9 +702,10 @@ footer .copyright {
 @media screen and (min-width: 1900px)   {
     #riverpay {
         margin-top: 0px!important;
-    }   
+    
 }
 @media screen and (min-width: 768px)    {
+    
     .workFlow_container {
         width: 75%;
         flex-wrap: wrap;
