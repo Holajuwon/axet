@@ -290,9 +290,9 @@ main {
   margin: auto;
   margin-right: 20px;
   padding: 30px;
-  text-align: center;
   background: #373737c9;
   border-radius: 5px;
+  text-align: center;
 }
 
 .login_text {
@@ -308,11 +308,10 @@ main {
 }
 
 .forget {
-      color: #b6c4da;
+    color: #b6c4da;
     font-size: 12px;
-    position: absolute;
-    top: 363px;
-    right: 129px;
+    text-align: right;
+    padding-left: 50%;
 }
 
 
@@ -349,119 +348,121 @@ input[type="password"] {
   color: white;
   font-size: 14px;
   margin-top: 5px;
+  text-align: center;
 }
 .about {
   width: 100%;
   justify-content: space-between;
   align-content: center;
-  margin-top: 45px;
+  margin-top: 40px;
 }
 
 .abt_main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+  display: flex;
+  width: 90%;
+  height: auto;
+  margin: auto;
+  padding: 0 15px;
+  justify-content: space-between;
 }
 
 .abt_text {
-    width: 25%;
+  width: 541px;
+    font-size: 14px;
+    padding: 82px 10px 0 0;
+    height: auto;
 }
 
-.about_axet {
-    font-weight: 600!important;
-    font-size: 14px;
-    color: #995AAA;
+
+.abt_text_p{
+  font-size: 12px;
+  margin-top: 33px;
+  width: 79%;
 }
-#_lorem  {
-    margin-bottom: 30px;
-}
-.lorem  {
-    font-weight: 300;
-    font-size:14px;
-    line-height: 21.66px;
+
+.abt_ax {
+  font-weight: 600;
+  font-size: 14px;
+  color: #995AAA;
+
 }
 .abt_hd {
   font-weight: 300;
   font-size: 40px;
-  margin-bottom: 15px;
 }
 main span h2 p {
   color: black;
 }
 
-/* .abt_img_div {
+.abt_img_div {
   width: 50%;
   height: auto;
-} */
+}
 .abt_img {
-    width: 800px;
-    height: 530px;
+  width: 590px;
+height: 469px;
 }
 
 .services {
-    display: flex;
-    /* justify-content: center;
-    align-items: center; */
-    flex-direction: column;
-    margin-top: 65px;
-    margin-left: 50px;
-    margin-bottom: 170px;
+  width: 100%;
+  margin: 95px auto 120px;
+  text-align: center;
+  padding: 30px;
 }
 
 .service_text {
-    display: flex;
-    margin-top: 80px;
-    justify-content: center;
+  display: flex;
+  margin-top: 5px;
+  margin: auto;
+  flex-wrap: wrap;
 }
 .card {
   width: 271px;
-  height: 377px;
-  padding: 30px 10px 30px 10px;
+  height: auto;
+  padding: 10px 20px;
+  margin: auto auto 50px;
   line-height: 1;
-  margin-left: 80px;
+  margin-top: 10px;
   text-align: center;
-  box-shadow: 2px 4px 26px rgb(0 0 0 / 7%);
+  background: #FFFFFF;
+  box-shadow: 2px 4px 26px 0px #00000012;
+  padding: 0 17px;
 }
 .card h3{
-    color: #565656;
-    font-size: 18px;
-    font-weight: 600;
+  margin-bottom: 26px;
 }
 .card p{
-    margin-top: 30px;
-    font-size: 14px;
-    line-height: 21.66px;
-    color: #000000;
+  margin-bottom: 40px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: lighter;
+  text-align: left;
+}
+.svs_span {
+  color: #995aaa;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.svs_p {
+  font-weight: 300;
+  font-size: 40px;
+  margin-bottom: 100px;
 }
 
 .img_icon {
   width: 100px;
   height: 100px;
-  margin: auto;
+  margin: 30px auto 76px;
   align-items: center;
   background-color: #772d8b;
-  margin-bottom: 60px;
-}
-.serviceHeader  {
-    text-align: center;
-}
-.serviceHeader h3{
-    font-weight: 600 ;
-    color: #995AAA;
-}
-.bigHeader  {
-    font-size: 40px;
-    font-weight: 300;
-    color: #474747;
-    margin-top: 0px;
 }
 
 .svs_icon {
   width: 50px;
   height: 50px;
   margin: auto;
-  margin-top: 25px;
+  margin-top: 15px;
   align-items: center;
 }
 
@@ -600,7 +601,6 @@ footer .copyright {
 .footer-content {
   margin-bottom: 40px;
 }
-
 
 /* footer style starts */
 /* Mobile responsiveness */
