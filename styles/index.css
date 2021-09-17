@@ -29,6 +29,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   margin-top: 30px;
+  row-gap: 30px;
 }
 /* .icon_workflow{
     positoion
@@ -602,9 +603,6 @@ footer .copyright {
     flex-direction: column;
     margin-top: 50px;
   }
-  .work_flow {
-    height: 150vh;
-  }
   .flow-text {
     width: 100%;
     padding: 0 6rem 0 6rem;
@@ -678,9 +676,6 @@ footer .copyright {
 @media screen and (min-width: 1024px) and (max-width: 1220px) {
   .equipment {
     margin-top: 0;
-  }
-  .work_flow {
-    height: 55vh;
   }
   .big_team {
     margin-top: 20px;
