@@ -679,7 +679,7 @@ footer .copyright {
     .workFlow_container {
         width: 75%;
         flex-wrap: wrap;
-        margin:  40px auto;
+        margin:  0px auto;
     }
     #riverpay {
         margin-top: 50px;
@@ -723,12 +723,16 @@ footer .copyright {
     .abt_img    {
         width: 100%;
         height: 50vh;
+        margin-top: 30px;
     }
     .abt_text {
         width: 88%;
         margin: auto;
     }
     abt_img_div {
+        margin-top: 30px;
+    }
+    .workFlow_container div  {
         margin-top: 30px;
     }
     
