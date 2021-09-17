@@ -345,22 +345,29 @@ input[type="password"] {
   width: 90%;
   height: auto;
   margin: auto;
-  padding: 5px;
+  padding: 0 15px;
   justify-content: space-between;
 }
 
 .abt_text {
   width: 541px;
-  font-size: 14px;
-    border: 2px solid;
+    font-size: 14px;
+    padding: 82px 10px 0 0;
     height: auto;
 }
 
 
+.abt_text_p{
+  font-size: 12px;
+  margin-top: 33px;
+  width: 79%;
+}
 
 .abt_ax {
   font-weight: 600;
   font-size: 14px;
+  color: #995AAA;
+
 }
 .abt_hd {
   font-weight: 300;
@@ -375,8 +382,8 @@ main span h2 p {
   height: auto;
 }
 .abt_img {
-  width: 490px;
-  height: 447px;
+  width: 590px;
+height: 469px;
 }
 
 .services {
