@@ -19,12 +19,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-}
-.work-overlay {
-  background: #390746bd;
-  width: 100%;
-  height: 100%;
-  padding: 20px 0 100px 0;
+  padding: 20px 0 50px 0;
 }
 .workflow_icons img {
   width: 100px;
@@ -33,15 +28,20 @@ body {
 .workFlow_container {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 30px;
 }
 /* .icon_workflow{
     positoion
 } */
 .work_flow h3 {
   font-size: 40px;
-  font-weight: normal;
+  font-weight: 300;
   color: #ffffff;
   margin: 0;
+  margin-top: 10px;
+}
+.paragraph {
+  margin-top: 20px;
 }
 .icon1_workflow {
   position: absolute;
@@ -73,13 +73,12 @@ body {
   color: #ffffff;
   line-height: 21.66px;
   font-size: 14px;
-}
-.workFlow_container {
-  margin-top: 30px;
+  font-weight: 300;
+  margin-top: 13px;
 }
 .workp {
   margin-bottom: 0;
-  color: #ffffff;
+  color: #d2cece;
 }
 .testimonial {
   text-align: center;
@@ -287,37 +286,34 @@ main {
 }
 .login_form {
   width: 360px;
-    height: 375px;
-    margin: auto;
-    margin-right: 20px;
-    padding: 30px;
-    text-align: center;
-    background: #373737c9;
-    border-radius: 5px;
+  height: 375px;
+  margin: auto;
+  margin-right: 20px;
+  padding: 30px;
+  text-align: center;
+  background: #373737c9;
+  border-radius: 5px;
 }
 
 .login_text {
   color: white;
-    font-weight: 600;
-    font-size: 18px;
-    margin-right: 216px;
+  font-weight: 600;
+  font-size: 18px;
+  margin-right: 216px;
 }
 
-.login{
-  
-line-height: 4;
+.login {
+  line-height: 4;
   margin-top: 20px;
-
 }
 
 .forget {
-      color: #b6c4da;
-    font-size: 12px;
-    position: absolute;
-    top: 395px;
-    right: 165px;
+  color: #b6c4da;
+  font-size: 12px;
+  position: absolute;
+  top: 395px;
+  right: 165px;
 }
-
 
 input[type="text"],
 input[type="password"] {
@@ -346,7 +342,7 @@ input[type="password"] {
   padding-left: 3px;
 }
 
-.btn_txt_white{
+.btn_txt_white {
   color: white;
   font-size: 12px;
   margin-top: 5px;
@@ -580,98 +576,98 @@ footer .copyright {
 
 /* footer style starts */
 /* Mobile responsiveness */
-@media screen and (max-width: 767px)    {
-    .workFlow_container {
-        flex-direction: column;
-        margin-top: 50px;
-    }  
-    .work_flow {
-        height: 150vh;
-    }
-    .flow-text  {
-        width: 100%;
-        padding: 0 6rem 0 6rem;
-    }
-    .term, .equipment, .pay   {
-        margin-top: 30px;
-    }
-    .clients    {
-        flex-direction: column;
-        align-items: center;
-        margin-top: 40px;
-    }
-    .client {
-        margin-right: 0px!important;
-        margin-top: 20px;
-    }
-    .the_news   {
-        flex-direction: column;
-    }
-    .the_news div   {
-        margin-right: 0;
-        margin-bottom: 40px;
-    }
-    .news   {
-        padding-top: 90px;
-    }
-    .news_text {
-        margin-top: 40px;
-    }
-
+@media screen and (max-width: 767px) {
+  .workFlow_container {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .work_flow {
+    height: 150vh;
+  }
+  .flow-text {
+    width: 100%;
+    padding: 0 6rem 0 6rem;
+  }
+  .term,
+  .equipment,
+  .pay {
+    margin-top: 30px;
+  }
+  .clients {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
+  .client {
+    margin-right: 0px !important;
+    margin-top: 20px;
+  }
+  .the_news {
+    flex-direction: column;
+  }
+  .the_news div {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+  .news {
+    padding-top: 90px;
+  }
+  .news_text {
+    margin-top: 40px;
+  }
 }
-@media screen and (min-width: 1900px)   {
-    #riverpay {
-        margin-top: 0px!important;
-    }   
+@media screen and (min-width: 1900px) {
+  #riverpay {
+    margin-top: 0px !important;
+  }
 }
-@media screen and (min-width: 768px)    {
-    .workFlow_container {
-        width: 75%;
-        flex-wrap: wrap;
-        margin:  40px auto;
-    }
-    #riverpay {
-        margin-top: 50px;
-    }
-    .clients    {
-        flex-wrap: wrap;
-    }
-    .client:not(:last-child)
-        {
-        margin-right: 65px;
-        margin-bottom: 30px;
-    }
-    ._client    {
-        margin-right: 0!important;
-    }
-    .the_news   {
-        flex-wrap: wrap;
-    }
-    .the_news div   {
-        margin-bottom: 30px;
-    }
-    .news_text {
-        margin-top: 40px;
-    }
-    .news {
-        text-align: center;
-        padding: 100px 0 50px 0;
-    }
+@media screen and (min-width: 768px) {
+  .workFlow_container {
+    width: 75%;
+    flex-wrap: wrap;
+    margin: 40px auto;
+  }
+  #riverpay {
+    margin-top: 50px;
+  }
+  .clients {
+    flex-wrap: wrap;
+  }
+  .client:not(:last-child) {
+    margin-right: 65px;
+    margin-bottom: 30px;
+  }
+  ._client {
+    margin-right: 0 !important;
+  }
+  .the_news {
+    flex-wrap: wrap;
+  }
+  .the_news div {
+    margin-bottom: 30px;
+  }
+  .news_text {
+    margin-top: 40px;
+  }
+  .news {
+    text-align: center;
+    padding: 100px 0 50px 0;
+  }
 }
-@media screen and (min-width: 1024px) and (max-width: 1220px)  {
-    .equipment  {
-        margin-top: 0;
-    }
-    .work_flow  {
-        height: 55vh;
-    }
-    .big_team   {
-        margin-top: 20px;
-    }
-    .news_text {
-        margin-top: 50px;
-    }
-    .news p {
-        margin-top: 15px;
-    }
+@media screen and (min-width: 1024px) and (max-width: 1220px) {
+  .equipment {
+    margin-top: 0;
+  }
+  .work_flow {
+    height: 55vh;
+  }
+  .big_team {
+    margin-top: 20px;
+  }
+  .news_text {
+    margin-top: 50px;
+  }
+  .news p {
+    margin-top: 15px;
+  }
 }

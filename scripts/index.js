@@ -6,9 +6,11 @@ let btn = document.getElementById("play-btn");
 function toggleVideo() {
   if (video.paused) {
     video.play();
-    // btn.innerHTML = "Pause";
+    btn.src =
+      "https://cdn.glitch.com/a8f831d3-9699-4887-93cc-c3f1e944b75b%2Fe07620bb-34d2-4973-95fa-73eb2571e498.image.png?v=1631860898507";
   } else {
     video.pause();
-    // btn.innerHTML = "Play";
+    btn.src =
+      "https://cdn.glitch.com/a8f831d3-9699-4887-93cc-c3f1e944b75b%2Fbe194a0b-4c2e-4492-b4d8-24b6ca9c9862.image.png?v=1631793982048";
   }
 }
