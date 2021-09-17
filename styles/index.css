@@ -560,6 +560,7 @@ footer .copyright {
   margin-bottom: 40px;
 }
 
+
 /* footer style starts */
 /* Mobile responsiveness */
 @media screen and (max-width: 767px)    {
@@ -598,6 +599,12 @@ footer .copyright {
     }
     .news_text {
         margin-top: 40px;
+    }
+    .abt_main   {
+        flex-direction: column;
+    }
+    .abt_ax {
+        text-align: center
     }
 
 }
